@@ -24,7 +24,7 @@ extra["description"] = "Facebook Login Android SDK"
 
 extra["url"] = "https://github.com/facebook/facebook-android-sdk"
 
-dependencies {
+dependencies {'com.facebook.android:facebook-android-sdk:18.0.0'
     // Facebook Dependencies
     api(project(":facebook-core"))
     api(project(":facebook-common"))
